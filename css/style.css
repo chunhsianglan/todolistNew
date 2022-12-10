@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*code start*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Permanent+Marker&family=Rokkitt:wght@500&family=Urbanist:wght@500&display=swap");
+
+/* green:097054 yellow:FFDE00 blue:6599FF orange:FF9900 */
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 500px;
+  height: 900px;
+  background-color: #ffde00;
+  margin: 0 auto;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-weight: 700px;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #097054;
+}
+form {
+  height: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ff9900;
+  border-radius: 5px;
+}
+.addText {
+  background: #fcf3ea;
+  height: 28px;
+  flex-grow: 2;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+input:focus {
+  outline: none;
+}
+
+.addBtn {
+  height: 30px;
+  border: 1px solid #ff9900;
+  background: #ff9900;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.headbar-list {
+  font-weight: bold;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Urbanist", sans-serif;
+  border-bottom: 1px solid #ff9900;
+}
+.headbar-list a {
+  text-decoration: none;
+  color: #097054;
+}
+
+.headbar-list a:hover {
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 20px;
+  background: #fcf3ea;
+  border-radius: 5px;
+  border: 1px solid #ff9900;
+}
+
+.list {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ff9900;
+  color: #097054;
+}
+
+.delete_list {
+  border: 1px solid #ff9900;
+  background: #ff9900;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.delete_list:hover {
+  cursor: pointer;
+}
+
+.bottom-bar {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #ff9900;
+}
+
+/* *{
+    Outline: 1px solid #000;
+    } */
