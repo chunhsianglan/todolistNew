@@ -11,7 +11,7 @@
     <div class="container">
       <h1>TO DO LIST</h1>
       <form>
-        <input type="text" class="addText" />
+        <input type="text" class="addText" placeholder="Add your list"/>
         <button class="addBtn">Add</button>
       </form>
       <div class="content">
@@ -22,7 +22,7 @@
             <li><a href="#">TO-BE-DONE</a></li>
           </ul>
           <div>
-            <ul>
+            <ul class="list_bar">
               <li class="list">
                 <input type="checkbox" class="check_btn" /><span
                   >Clean the bathroom</span
@@ -42,10 +42,11 @@
           </div>
           <ul class="bottom-bar">
             <li>3 things to do</li>
-            <li>Delete all</li>
+            <li> <input type="button" value="Delete All" class="delete_all_btn"></li>
           </ul>
         </div>
       </div>
     </div>
+    <script src="/js/all.js"></script>
   </body>
 </html>

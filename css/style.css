@@ -152,7 +152,7 @@ html {
 
 h1 {
   font-weight: 700px;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   font-family: "Urbanist", sans-serif;
   padding-top: 10px;
@@ -235,10 +235,11 @@ input:focus {
 
 .bottom-bar {
   text-align: center;
-  padding: 10px;
+  padding: 13px;
   display: flex;
   justify-content: space-between;
   color: #ff9900;
+  font-family: "Didact Gothic", sans-serif;
 }
 
 /* *{
